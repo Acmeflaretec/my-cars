@@ -45,8 +45,8 @@ export default function HeroCarousel() {
             Premium Self-Drive Rentals
           </div>
           <h1 className={styles.title}>
-            Drive Your <br />
-            <span className={styles.highlight}>Dreams</span> Today
+            Self Driving Cars <br />
+            <span className={styles.highlight}>in Thirupur</span>
           </h1>
           <p className={styles.subtitle}>
             Experience the freedom of the open road with our exclusive fleet of well-maintained cars. Flexible rentals, affordable prices, and unmatched service in Tirupur.
