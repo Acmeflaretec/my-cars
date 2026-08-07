@@ -45,7 +45,7 @@ export default function Footer() {
 
       <div className={styles.footerBottom}>
         <div className="container">
-          <p>{company.name} &copy;{year} All rights reserved | This website is made with ❤️ by <a href="https://www.acmeflare.in/" target="_blank" rel="noreferrer" style={{color: 'inherit', textDecoration: 'underline'}}>Acmeflare</a></p>
+          <p>{company.name} &copy;{year} All rights reserved </p>
         </div>
       </div>
     </footer>
