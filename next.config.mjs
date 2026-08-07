@@ -1,6 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: '/car',
+        destination: '/cars',
+        permanent: true,
+      },
+      {
+        source: '/car/:path*',
+        destination: '/cars/:path*',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
