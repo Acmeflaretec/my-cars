@@ -237,4 +237,32 @@ export const cars = [
     extraHours: "₹300 per hour",
     extraKm: "₹10 per km"
   },
+  {
+    id: "fronx",
+    name: "Fronx",
+    category: "SUV",
+    price: 3000,
+    image: "/images/fronx.avif",
+    whatsappText: "I would like to book Fronx",
+    fuel: "Petrol",
+    transmission: "Manual",
+    seats: "5 Seats",
+    disclaimer: "Kindly note that fuel and toll charges are to be covered separately by the Customer.",
+    extraHours: "₹300 per hour",
+    extraKm: "₹10 per km"
+  },
+  {
+    id: "venue-sunroof",
+    name: "Venue Sunroof",
+    category: "SUV",
+    price: 3000,
+    image: "/images/venue.jpeg",
+    whatsappText: "I would like to book Venue Sunroof",
+    fuel: "Petrol",
+    transmission: "Manual",
+    seats: "5 Seats",
+    disclaimer: "Kindly note that fuel and toll charges are to be covered separately by the Customer.",
+    extraHours: "₹300 per hour",
+    extraKm: "₹10 per km"
+  }
 ];
